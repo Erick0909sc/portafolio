@@ -63,6 +63,20 @@ const proyects = [
     // Repositorio: "https://github.com/Erick0909sc/Repuestos.git",
     Proyecto: "https://repuestos.vercel.app/",
   },
+  {
+    nombre: "Games Room (proyecto en proceso)",
+    imagenes: [
+      "https://res.cloudinary.com/duhzsygir/image/upload/v1740503035/g2.png",
+      "https://res.cloudinary.com/duhzsygir/image/upload/v1740503034/g1.png",
+      "https://res.cloudinary.com/duhzsygir/image/upload/v1740503034/g3.png",
+      "https://res.cloudinary.com/duhzsygir/image/upload/v1740503035/g4.png",
+      "https://res.cloudinary.com/duhzsygir/image/upload/v1740503034/g5.png",
+    ],
+    descripcion:
+      " es una tienda online en desarrollo donde los usuarios pueden explorar videojuegos y filtrar productos con paginación. Cuenta con una landing page moderna, un carrusel de productos y un sistema de registro e inicio de sesión, mostrando el nombre del usuario en el navbar al loguearse.(proyecto aun en proceso)",
+    // Repositorio: "https://github.com/Erick0909sc/Repuestos.git",
+    Proyecto: "https://games-swart-ten.vercel.app/",
+  },
 ];
 
 const data = { skills, proyects }; // Se crea el objeto que contiene ambas constantes.
