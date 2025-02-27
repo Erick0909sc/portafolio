@@ -44,9 +44,9 @@ export default function ContactForm() {
   return (
     <section
       id="contacto"
-      className="h-screen flex flex-col items-center justify-center bg-gray-900"
+      className="min-h-screen flex flex-col items-center justify-center px-6 sm:px-10 py-12 bg-gray-900"
     >
-      <h2 className="text-4xl font-bold text-white mb-6 animate-fadeIn">
+      <h2 className="text-4xl font-bold text-white mb-6 text-center animate-fadeIn">
         Contáctame
       </h2>
       <p className="text-gray-100 text-justify text-lg max-w-2xl mb-10 animate-fadeIn">
@@ -58,7 +58,8 @@ export default function ContactForm() {
         desafíos y aportar valor a tus proyectos con creatividad, eficiencia y
         compromiso. ¡Espero hablar contigo pronto!
       </p>
-      <div className="max-w-md w-full px-12 py-10 bg-gray-100 rounded-lg shadow-lg">
+
+      <div className="w-full lg:w-3/4 px-6 sm:px-12 py-12 bg-gray-100 rounded-lg shadow-lg animate-fadeIn">
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
@@ -128,8 +129,8 @@ export default function ContactForm() {
         <ToastContainer position="top-right" autoClose={3000} />
       </div>
 
-      {/* Íconos de redes sociales */}
-      <div className="flex gap-6 mt-6">
+      {/* Íconos de redes sociales dentro de la sección */}
+      <div className="w-full flex justify-center gap-6 mt-6">
         <a
           href="https://www.linkedin.com/in/erick-inga-calle/"
           target="_blank"
