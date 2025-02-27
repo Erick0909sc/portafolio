@@ -37,7 +37,7 @@ export default function About() {
             <span className="text-blue-500 font-semibold">Next.js</span>,{" "}
             <span className="text-blue-500 font-semibold">React</span> y{" "}
             <span className="text-blue-500 font-semibold">Tailwind CSS</span>.
-            Actualmente, estoy enfocada en mejorar mis habilidades y explorar
+            Actualmente, estoy enfocado en mejorar mis habilidades y explorar
             nuevas tecnologías.
           </p>
         </motion.div>

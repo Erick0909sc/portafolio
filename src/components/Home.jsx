@@ -40,7 +40,7 @@ export default function Home() {
         Profesional Técnico en Ingeniería de Software con IA, con habilidades
         técnicas y comunicativas. Busco aportar soluciones innovadoras y
         eficientes en programación, mientras continúo desarrollándome
-        profesionalmente..{" "}
+        profesionalmente.. {" "}
       </p>
 
       <motion.a

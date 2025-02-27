@@ -13,6 +13,7 @@ export default function Navbar() {
     { name: "Sobre Mi", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Proyectos", href: "#proyectos" },
+    { name: "Contáctame", href: "#contacto" },
   ];
 
   // Función para desplazarse suavemente a una sección
@@ -25,7 +26,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="  block w-full max-w-screen px-4 py-4 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+      <nav className=" fixed block w-full max-w-screen px-4 py-3 mx-auto bg-white bg-opacity-90   shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <a
             href="#home"
